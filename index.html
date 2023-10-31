@@ -22,18 +22,18 @@
         <div class="container">
             <header class="bg-dark mt-3 rounded-3" data-bs-theme="dark">
                 <nav class="nav p-4">
-                    <ul class="nav nav-underline">
-                        <li class="nav-item">
-                          <button class="nav-link link-light">About me</button>
+                    <ul class="nav nav-underline" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active link-light" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="true">About me</button>
                         </li>
-                        <li class="nav-item">
-                          <button class="nav-link link-light">Skills</button>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link link-light" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills-tab-pane" type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="false">Skills</button>
                         </li>
-                        <li class="nav-item">
-                          <button class="nav-link link-light">Projects</button>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link link-light" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects-tab-pane" type="button" role="tab" aria-controls="projects-tab-pane" aria-selected="false">Projects</button>
                         </li>
-                        <li class="nav-item">
-                          <button class="nav-link link-light">Contact</button>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link link-light" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
                         </li>
                       </ul>
                 </nav>
@@ -64,6 +64,8 @@
                     </div>
                 </div>
             </div>
+
+
         </div>
     </body>
 </html>
