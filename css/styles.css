@@ -10,3 +10,25 @@ body {
     width: 150px;
     height: 150px;
 }
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    width: 25px;
+}
+
+.card-body > a {
+    background-color: rgba(155, 155, 155, 0.212);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.fa-brands {
+    color: #ebebeb;
+}
+
+.card-body > a:hover {
+    background-color: rgba(155, 155, 155, 0.514);
+    border-radius: 5px;
+    padding: 10px;
+}
