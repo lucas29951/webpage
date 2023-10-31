@@ -5,3 +5,8 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+.card-img {
+    width: 150px;
+    height: 150px;
+}
